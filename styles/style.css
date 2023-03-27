@@ -1,0 +1,21 @@
+#chat-box {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#messages {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+#chat-form {
+  display: flex;
+  align-items: center;
+}
+
+#message-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
